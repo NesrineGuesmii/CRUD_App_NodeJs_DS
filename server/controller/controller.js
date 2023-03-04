@@ -85,6 +85,7 @@ exports.update = (req, res)=>{
 }
 
 // Delete a user with specified user id in the request
+// some changes for a new commit
 exports.delete = (req, res)=>{
     const id = req.params.id;
 
